@@ -1,13 +1,22 @@
-FLAPPY BIRD GAME
-A simple flappy bird clone built usuing HTML,CSS and Javascript
-the game is about guiding a bird through pipes without crashing
-(made this to practice my javascript)
-HOW TO PLAY  
-1.Press spacebar or tap on the screen to make the bird fly.
-2.Avoid crashing into pipes or falling on ground and flying too high.
-3.Passing each pipe you get +1 score
-4.The best score is recorded when you hit an obstace as the game ends
-FEATURES
-1.simple one tap/one key control.
-2.Endless play.
-3.Score tracking.
+# 🐦 Flappy Bird Game  
+
+A simple **Flappy Bird clone** built using **HTML, CSS, and JavaScript**.  
+The game is about guiding a bird through pipes without crashing.  
+
+*(Made this to practice my JavaScript)*  
+
+---
+
+## 🎮 How to Play  
+1. Press **Spacebar** or **tap on the screen** to make the bird fly.  
+2. Avoid crashing into **pipes**, falling on the **ground**, or flying too high.  
+3. Passing each pipe gives you **+1 score**.  
+4. The **best score** is recorded when the game ends after hitting an obstacle.  
+
+---
+
+## ✨ Features  
+- Simple **one-tap/one-key control**.  
+- **Endless gameplay**.  
+- **Score tracking** with best score system.
+📎 click here to try (https://kkxris.github.io/flappy-bird/)
