@@ -1,0 +1,43 @@
+ body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /*background-color: rgb(107, 228, 222);*/
+            background-image: url("flappy.jpg");
+            background-repeat:repeat-x;
+            font-family: 'Press Start 2P', cursive;
+            overflow: hidden;
+        }
+        #board {
+            background-image: url("flappy.jpg");
+            /*background-color: #70c5ce;*/
+            border: 5px solid #130941;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            image-rendering: -moz-crisp-edges;
+            image-rendering: -webkit-crisp-edges;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+        #start-screen {
+            position: absolute;
+            color: rgb(252, 252, 252);
+            text-align: center;
+        }
+        #start-screen h1 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-shadow: 4px 4px 0px #69105a;
+        }
+        #start-screen p {
+            font-size: 1rem;
+            animation: blink 1.5s infinite;
+            text-shadow: 4px 4px 0px #030003;
+        }
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
